@@ -3,8 +3,6 @@
 //   return a + b;
 // }
 
-console.log(sum(10, 20));
-
 // 함수의 반환값에 타입을 정의하는 방식
 function add(): number {
   return 10;
@@ -13,3 +11,10 @@ function add(): number {
 function sum(a: number, b: number): number {
   return a + b;
 }
+console.log(sum(10));
+
+function log(a: string, b?: string, c?: string) {
+  console.log(a);
+}
+
+log("test", "ss");
